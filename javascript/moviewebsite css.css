@@ -1,0 +1,589 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(142, 175, 204);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+
+}
+.poster{
+  transition: transform .2s;
+}
+.poster:hover{
+  transform: scale(1.1);
+}
+.register :hover{
+  background-color: #f39c12;
+  color: darkblue;
+}
+.bodyindex img{
+margin-top: 80px;
+opacity: 0.5;
+justify-content: center;
+height: 29em;
+position: relative;
+
+    }
+    .video-container {
+    margin-top: 20px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+      .video-container video {
+        max-width: 100%;
+        height: auto; 
+      }
+    
+
+header{
+  position: sticky;
+  top: 0;
+
+  
+  transition: transform 0.3s ease;
+
+}
+.logo{
+    width: 6em;
+    margin-top: -1.5em;
+
+}
+.logoname{
+    position:absolute;
+    font-size: 1.3em;
+    margin-left: 3.9em;
+    margin-top: -3em;
+
+  
+}
+.offcanvas-body{
+    display: block;
+   margin-left: -20px;
+  
+}
+.form-control{
+    position: relative;
+    display: block;
+    height: 30px;
+    margin-right: 11em;
+}
+.btn-control {
+    margin-left: -10em;
+}
+.btn-control button{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.login button{
+   
+
+}
+.navbar {
+  background-color: rgb(142, 175, 204);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+.nav-item  :hover{
+ cursor: pointer;
+border-radius: 20px;
+color: rgb(169, 0, 48);font-weight: bold;
+
+
+}
+.inner-box{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.559);
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    margin-top: -23em;
+    margin-left: 1%;
+}
+.inner-box h6{
+    margin-top: -7px;
+    letter-spacing: 2px;
+
+}
+.inner-box button{
+    width: 100px;
+    height: 30px;
+   padding-bottom: 20px;
+ margin-left: 43%;}
+ .signin-btn:hover{
+  background-color:chartreuse
+ }
+
+
+ 
+.filterable_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   gap:15px;
+   margin-top: 10px;
+  
+  
+
+}
+.filterable_cards img{
+width: 200px;
+height: 200px;
+justify-content: center;
+align-items: center;
+padding: ;
+object-fit: cover;
+
+
+
+
+}
+.star{
+    list-style: none;
+    display: flex;
+    color:darkorange;
+    margin-left: -50px;
+
+}
+.title{
+    margin-left: -19px;
+}
+
+
+
+body{
+
+}
+.filter{
+padding: 2em;
+border: 3px solid rgb(15, 27, 36);
+margin-top: 10px;
+width: 90%;
+margin-left: 50px;
+border-radius: 20px;
+
+
+}
+
+.filter-button button{
+padding: 5px 10px 5px 10px;
+
+font-size: 1.0em;
+background-color: black;
+color:white;
+border-radius: 5px;
+cursor: pointer;
+transition:0.1s;
+
+justify-content: center;
+align-items: center;
+
+
+}
+.filter-button{
+padding: 1em;
+justify-content: center;
+align-items: center;
+display: flex;
+gap:10px;
+flex-wrap: wrap;
+}
+
+.filter-button button:hover{
+background-color: aqua;
+color: black;
+border: none;
+border-radius: 5px;
+}
+.filter-button button.active{
+background-color: aqua;
+color: black;
+border: none;
+}
+.filterable_cards .card{
+border: 1px solid black;
+background-color:rgba(0, 0, 0, 0.402);
+height: 320px;
+}
+.filterable_cards h4{
+    color: aliceblue;
+}
+.card.hide{
+display: none;
+}
+.card{
+transition: transform .1s;
+}
+.card:hover{
+transform: scale(0.9);
+
+}
+/*cele*/
+  .card-container1 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 5em;
+
+margin-top: 10px;
+width: 90%;
+margin-left: 50px;
+border-radius: 20px;
+position: relative;
+background-color:rgba(0, 0, 0, 0.788);
+
+
+
+
+ }
+
+ 
+ .kanguva{
+    display: flex;
+ }
+.film button{
+  border: none;
+    width: 80%;
+    margin-left: 10%;
+  padding-top: -2px;
+  border-radius: 2em;
+  background-color:lightgoldenrodyellow
+   
+    
+}
+  
+  .card1 {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+  }
+  
+  .card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: scale(0.9);
+  }
+  
+  .card:hover .popup {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+  
+  .popup h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color:darkorange;
+  }
+  
+  .popup p {
+    font-size: em;
+  }
+  /*upcoming*/
+  .upcoming{
+    margin-top: 30px;
+  }
+  .slider-container2 {
+    width: 100%;
+    max-width: 1000px; 
+    height: 300px; 
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slider2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    animation: autoplay 12s linear infinite;
+  }
+  
+  .slider2 img {
+    width: 300px;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  
+  @keyframes autoplay {
+    0% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+  .cardlast{
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f8f9fa8c; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+   
+  }
+  .cardlast a{
+  color: black;
+  padding: 5px;
+  }
+  .cardlast a:hover{
+ color:blueviolet
+
+  }
+  .card-container{
+  
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .cardlast:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  .cardlast h4{
+    padding: 10px;
+  }
+  .cardlast p{
+    text-align: center;
+    color: rgb(175, 140, 0);
+  }
+  .cardlast button{
+    padding: 5px;
+   border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.826);
+
+  }
+  /*contact form-*/
+  .container-form {
+    width: 90%;
+ 
+    max-width: 400px;
+    background: #bce77f8d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    
+
+  
+  }
+  .form.main{
+    border: 1px solid black;
+    height: 500px;
+
+  }
+  .form-container{
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+  }
+
+  .container-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: none;
+    
+  }
+
+  form.active {
+    display: block;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: #333;
+  }
+
+  .form-group textarea {
+    resize: none;
+    height: 60px;
+  }
+
+ .form-button button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+  
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+  }
+  .form-button-login{
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: #f39c12;
+    border: none;
+  }
+  .form-main{
+  
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+    
+  }
+
+  .form-switch {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .form-switch button {
+    width: 45%;
+    background-color: #2ecccc;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .form-switch button:hover {
+    background-color: #27ae60;
+  }
+  .form-register{
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: darkorange;
+    border: none;
+
+  }
+
+  /*footer*/
+  .footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #f39c12;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #f39c12;
+}
+
+.footer .social-icons a {
+    margin: 0 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 0;
+}

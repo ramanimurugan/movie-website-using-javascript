@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="moviewebsite.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--arrow-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar" >
+        <div class="container-fluid">
+          <a class="navbar-brand logo-name" href="#"> <img class="logo" src="images/rolex logo.png"><div class="logoname">OLEX</div></a>
+          <button class="navbar-toggler mb-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Movie Site</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body mb-4 " >
+              <ul class="navbar-nav  justify-content-center flex-grow-1 me-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#section1">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section2">Movies</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#section3"  >
+                    Celebrity
+                  </a>
+                 
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="#section4"  >
+                      Upcoming
+                    </a>
+                   
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#section5"  >
+                      Contact
+                    </a>
+                   
+                  </li>
+                  <form class="d-flex mt-2 ms-5" role="search">
+                    <input class="form-control " type="search"  aria-label="Search">
+                   <div class="btn-control"> <button class="btn btn-primary " type="submit">Search</button></div>
+                   
+                  
+                   
+
+                  </form>
+                  
+    
+              </ul>
+              
+      
+              
+            </div>
+          </div>
+        </div>
+        
+     
+      </nav>
+    </header>
+
+    
+      <!--bodyindex-->
+      <section id="section1">
+      <div class="container-fluid ms-3">
+            <div class="row col-sd-3 col-md-4 col-lg-12 bodyindex" >
+                <img class=""src="images/collage poster.jpg">
+                <div class="container-fluid poster row col-sd-3 col-md-4 col-lg-12  col-md-4 inner-box">
+<h1 style="color:rgb(224, 234, 85); font-size:25px; text-align: center; margin-top: 20px; text-shadow: 1px 1px #fefe30; " >Upcoming Entertainment's</h1>
+<h6 style="text-align:center; color: aliceblue;">"Get ready to laugh out lord with the most hilarious movie of the year"
+'A comedy of errors that will leave you in stitches'<br>Everyday is a new chance to enjoy </h4>
+<div class="btn-control" style="margin-left: 15%; "> <button class="btn btn-info sigin-btn register" type="submit"><a   style="text-decoration: none; color: black;"  href="#section5" >Register</a></button></div>
+
+
+                </div>
+             
+    
+    
+            </div>
+        </div>
+       
+  
+      </section>
+      <!--movie review-->
+
+      <section class="filter "  id="section2">
+        <div class="head " style="font-size: 30px; ">Popular Movies</div>
+
+        <div class="row " style="margin-top: 40px;">
+       
+                <div class="filter-button ">
+                   <button class="active" type="button " data-name="all" >Movies</button>
+                    <button type="button" data-name="Horror">Horror</button>
+                    <button type="button" data-name="comedy">Comedy</button>
+                    <button  type="button" data-name="anime">anime</button>
+                    <button  type="button" data-name="crime">Crime</button>
+                </div>
+            
+
+        </div>
+        <!--images card-->
+       
+        
+            <div class="filterable_cards" >
+                <div class="card" data-name="Horror">
+                   <img src="images/horr1.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6 title">WOLF RISE</h4>
+<h6 class="card-title">Rating </h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="Horror">
+                  <img src="images/horro3.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6">MASK</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="Horror">
+                  <img src="images/horro5.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6">HI-HI</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="Horror">
+                  <img src="images/horror4.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6"style="margin-left: -px;">DEVIL</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+
+                <div class="card" data-name="Horror">
+                   <img src="images/horror6.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -4px;">STING</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="comedy">
+                   <img src="images/com1.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -15px;">JACKASS</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="comedy">
+                  <img src="images/com2.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6 " style="margin-left: -20px;">DADDY DAY</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="comedy">
+                  <img src="images/com3.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6">PINOT</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="comedy">
+                  <img src="images/com4.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -24px;">HOME ALONE</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="comedy">
+                    <img src="images/com5.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -14px;">PENGUINS</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="anime">
+                    <img src="images/anime2.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6">DAISY</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="anime">
+                  <img src="images/anim3.jpg">
+       <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -14px;">PEANUTS</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="anime">
+                  <img src="images/ani4.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6">DORY</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="anime">
+                  <img src="images/ani6.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -10px;">DRAGON</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="anime">
+                  <img src="images/anim.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6" style="margin-left: -35px;">ALIEN MARLGRE</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="crime">
+                  <img src="images/cri1.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6 title" style="margin-left: px;">REVENGE</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="crime">
+                  <img src="images/crime2.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6"style="margin-left:-10px">BEGGY</h4>
+<h6 class="card-title ">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="crime">
+                  <img src="images/crime3.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title title h6">MORTIN CRIME</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="crime">
+                  <img src="images/crime4.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title h6 title">BHRAMAN</h4>
+<h6 class="card-title">Rating </h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+
+                <div class="card" data-name="crime">
+                   <img src="images/crime5.jpg">
+                 <div class="card-body " style="margin-left: 60px;">
+                    <h4 class="card-title title h6">THE QUARRY</h4>
+<h6 class="card-title">Rating</h6>
+<ul class="star">
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+  <li><i class="fa fa-star checked"></i></li>
+    
+  <li><i class="fa-regular fa-star"></i></li>
+  <li><i class="fa-regular fa-star"></i></li>
+</ul>
+                 </div>
+                </div>
+                
+            </div>
+    
+        
+    </section  >
+    <section id="section3">
+    <div class=" row kanguva">
+     <div class="col-lg-12 col-sm-12 col-md-8 justify-content-center align-items-center text-center" style=" padding-top: 20px;"  >
+      <h3 style="padding-top: 20px;">Kanguva Trailer OnAir</h3>
+     </div>
+      
+     <div>
+
+      <div class="container-fluid video-container">
+<div class="row justify-content-center align-items-center text-center ">
+  <div class=" col-md-8">
+  
+  <video controls autoplay muted  loop src="images/VID_20250101163716.mp4" width="auto";
+  height="300 "  ></video>
+ 
+</div>
+</div>
+
+</div>
+
+
+
+    <div class="film" style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 1em; color: rgb(139, 67, 0);"><button>Bollywood Top Movies</button></div>
+
+
+    <!--celebrity-->
+
+    <div class="card-container1">
+      
+
+      <div class="card1">
+        <img src="images/surya.jpg" alt="Card Image">
+        <div class="popup">
+          <h3>KANGUVA</h3>
+          <h4>Suriya </h4>
+          <p style="color: rgb(49, 237, 237);">Bollyhood</p>
+          <p>Action Adventure Fantasy </p>
+        </div>
+      </div>
+
+      <div class="card1">
+        <img src="images/sivakar.jpg" alt="Card Image">
+        <div class="popup">
+          <h3>AMARAN</h3>
+          <h4>Siva Karthikeyan </h4>
+          <p style="color: rgb(49, 237, 237);">Bollyhood</p>
+          <p>Action Adventure Love </p>
+        </div>
+      </div>
+
+      <div class="card1">
+        <img src="images/beast.jpg" alt="Card Image">
+        <div class="popup">
+          <h3>BEAST</h3>
+          <h4>Suriya </h4>
+          <p style="color: rgb(49, 237, 237);">Bollyhood</p>
+          <p>Action Adventure Drama </p>
+        </div>
+      </div>
+
+      <div class="card1">
+        <img src="images/karthi.jpg" alt="Card Image">
+        <div class="popup">
+          <h3>SULTAN</h3>
+          <h4>Karthi </h4>
+          <p style="color: rgb(49, 237, 237);">Bollyhood</p>
+          <p>Action Fantasy </p>
+        </div>
+      </div>
+
+      <div class="card1">
+        <img src="images/vijasethu.jpg" alt="Card Image">
+        <div class="popup">
+          <h3>SETHUPATHI</h3>
+          <h4>Vijay Sethupathi </h4>
+          <p style="color: rgb(49, 237, 237);">Bollyhood</p>
+          <p>Action Adventure Drama </p>
+          <hr>
+        </div>
+      </div>
+      
+
+     
+
+
+
+
+
+
+
+    </div>
+  </section>
+    
+      
+
+    <section id="section4" >
+      <!--upcoming-->
+      <hr style="border: 3px solid black;">
+      <section class="upcoming">
+        <div class="justify-content-center align-items-center text-center">
+          <h2 >Upcoming Movies 2025</h2>
+        </div>
+        
+        <div class=" row slider-container2">
+          <div class=" col-sd-3 col-md-4 col-lg-12 slider2" id="slider2">
+            <img src="images/upcome1.jpg" alt="Image 1">
+            <img src="images/upcome2.jpg" alt="Image 2">
+            <img src="images/upcome3.jpg" alt="Image 3">
+            <img src="images/upcome4.jpg" alt="Image 4">
+            <img src="images/upcome5.jpg" alt="Image 1">
+            <img src="images/upcome6.jpg" alt="Image 2">
+            <img src="images/upcome7.jpg" alt="Image 3">
+            <img src="images/upcome8.jpg" alt="Image 4">
+            <img src="images/upcome9.jpg" alt="Image 3">
+            <img src="images/upcome10.jpg" alt="Image 4">
+            <img src="images/upcome1.jpg" alt="Image 1">
+            <img src="images/upcome2.jpg" alt="Image 2">
+            <img src="images/upcome3.jpg" alt="Image 3">
+            <img src="images/upcome4.jpg" alt="Image 4">
+            <img src="images/upcome5.jpg" alt="Image 1">
+            <img src="images/upcome6.jpg" alt="Image 2">
+            <img src="images/upcome7.jpg" alt="Image 3">
+            <img src="images/upcome8.jpg" alt="Image 4">
+            <img src="images/upcome9.jpg" alt="Image 3">
+            <img src="images/upcome10.jpg" alt="Image 4">
+            <img src="images/upcome1.jpg" alt="Image 1">
+            <img src="images/upcome2.jpg" alt="Image 2">
+            <img src="images/upcome3.jpg" alt="Image 3">
+            <img src="images/upcome4.jpg" alt="Image 4">
+            <img src="images/upcome5.jpg" alt="Image 1">
+            <img src="images/upcome6.jpg" alt="Image 2">
+            <img src="images/upcome7.jpg" alt="Image 3">
+            <img src="images/upcome8.jpg" alt="Image 4">
+            <img src="images/upcome9.jpg" alt="Image 3">
+            <img src="images/upcome10.jpg" alt="Image 4">
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center text-center card-container">
+          <div class="col-md-4">
+<div class="cardlast"> 
+  <h4>Cinema</h2>
+    <p>Movies have the power to evoke emotions in the audience. Besides, it has the potential to raise awareness and promote social change by addressing important issues. Further, movies also serve as a form of entertainment and cultivate . </p>
+ <a href="#"><i class="fa-brands fa-facebook"></i></a>
+ <a href="#"><i class="fa-brands fa-instagram"></i></a>
+ <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+ <a href="#"><i class="fa-brands fa-github"></i></a>
+
+
+</div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="cardlast">
+              <h4>Industry</h2>
+                <p>Movies create a huge impact on human life. It can be positive as well as negative. People learn and implement new and innovative things from movies in real life. For example, learning new languages, getting inspiration,  </p>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+               
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="cardlast ">
+              <h4>Film world</h2>
+                <p>Movies are the best mode of enjoyable and immersive entertainment. When one gets bored with the same routine work and needs relaxation, the cinematic experience, with its special effects, music, and storytelling techniques. </p>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+               
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+      </section  >
+      
+      <section id="section5" class=" form-main justify-content-center align-items-center text-center">
+        
+        <div class="container-form container-fluid col-md-8 ">
+          <h2>Contact Form</h2>
+      
+          <!-- Contact Form -->
+          <form id="contact-form " class="active ">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Write your message"></textarea>
+            </div>
+         
+          </form>
+      
+          <!-- Register Form -->
+          <form id="register-form">
+            <div class="form-group">
+              <label for="register-name">Full Name</label>
+              <input type="text" id="register-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="register-email">Email Address</label>
+              <input type="email" id="register-email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="register-password">Password</label>
+              <input type="password" id="register-password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="form-register">Register</button>
+          </form>
+      
+          <!-- Login Form -->
+          <form id="login-form">
+            <div class="form-group">
+              <label for="login-email">Email Address</label>
+              <input type="email" id="login-email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" placeholder="Enter your password" required>
+            </div>
+            <button class="form-button-login" type="submit">Login</button>
+          </form>
+      
+          <!-- Form Switch Buttons -->
+          <div class="form-switch">
+  
+            <button  class="form-button"onclick="showForm('register-form')">Register</button>
+            <button class="form-button" onclick="showForm('login-form')">Login</button>
+          </div>
+        </div>
+
+
+
+
+
+      </section>
+     <!--footer-->
+     <footer class="footer">
+      <h5>Connect with Us</h5>
+      <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#section1" target="_blank"><i class="fa-solid fa-house"></i> Return Home</a>
+      </div>
+      <hr>
+      <p>&copy; 2025 MyWebsite. All Rights Reserved.</p>
+  </footer>
+
+    <script src="moviewebsite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <!--swipe-->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
